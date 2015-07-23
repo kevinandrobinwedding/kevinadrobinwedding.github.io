@@ -1,0 +1,23 @@
+{
+  "name": "wedding",
+  "version": "0.1.0",
+  "description": "Wedding Website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevinandrobinwedding/kevinandrobinwedding.github.io.git"
+  },
+  "keywords": [
+    "wedding",
+    "website"
+  ],
+  "author": "Kevin Baker <kbaker@tapestryd.com> (http://tapestryd.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevinandrobinwedding/kevinandrobinwedding.github.io/issues"
+  },
+  "homepage": "https://github.com/kevinandrobinwedding/kevinandrobinwedding.github.io"
+}
