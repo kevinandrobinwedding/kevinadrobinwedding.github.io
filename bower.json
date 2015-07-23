@@ -1,0 +1,22 @@
+{
+  "name": "Wedding",
+  "version": "0.1.0",
+  "homepage": "http://kevinandrobinwedding.github.io",
+  "authors": [
+    "Kevin Baker <kbaker@kev.io>"
+  ],
+  "description": "Wedding Website",
+  "main": "index.html",
+  "keywords": [
+    "wedding",
+    "website"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
