@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/kevinandrobinwedding/kevinandrobinwedding.github.io/issues"
   },
-  "homepage": "https://github.com/kevinandrobinwedding/kevinandrobinwedding.github.io"
+  "homepage": "https://github.com/kevinandrobinwedding/kevinandrobinwedding.github.io",
+  "devDependencies": {
+    "gulp-sass": "^2.0.4"
+  }
 }
