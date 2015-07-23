@@ -29,7 +29,7 @@ function initialize() {
   ];
   var styledMap = new google.maps.StyledMapType(styles,
     {name: "Styled Map"});
-  var myLatLng = new google.maps.LatLng(-37.819647, 144.957328);
+  var myLatLng = new google.maps.LatLng(32.775045, -117.238903);
   var mapOptions = {
     zoom: 14,
     center: myLatLng,
