@@ -38,12 +38,14 @@ new WOW().init();
  ## Owlcarousel init
 -------------------------------------------------- */
 if (jQuery().owlCarousel) {
+    var items = $('.photo-item').length;
 	$('#photo-carousel').owlCarousel({
+        items: items,
 	    itemsCustom : [
-	      [0   , 1],
-	      [768 , 3],
-	      [992 , 3],
-	      [1200, 4],
+	      [0   , 6],
+	      [768 , 6],
+	      [992 , 6],
+	      [1200, 6]
 	    ],
 	    navigation  : false,
 	    pagination  : false,

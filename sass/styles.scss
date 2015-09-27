@@ -110,3 +110,19 @@
 @import "components/carousels";
 @import "components/countdown";
 @import "components/tabs";
+
+/* ---------------------------------------------------------------------
+ # CUSTOM
+--------------------------------------------------------------------- */
+.owl-item {
+  width: auto !important;
+}
+
+.photo-item {
+  width: auto !important;
+  height: auto !important;
+}
+.photo-item img {
+  height: 220px !important;
+  width: auto !important;
+}

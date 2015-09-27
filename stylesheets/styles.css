@@ -11106,8 +11106,7 @@ blockquote {
 header.page-header {
   margin: 80px 0 0;
   padding-bottom: 0;
-  /*background-image: url("../images/header/page_header_bg.jpg");*/
-  background-image: url("../images/custom/header/paradise_point_island_header_blur.jpg");
+  background-image: url("../images/header/page_header_bg.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: inherit;
@@ -11122,8 +11121,8 @@ header.page-header {
 header.home-header {
   margin-top: 80px; }
   header.home-header .header-content {
-    padding-top: 15%;
-    padding-bottom: 10%; }
+    padding-top: 25%;
+    padding-bottom: 25%; }
   header.home-header .header-title {
     margin: 0;
     font-size: 70px; }
@@ -12345,5 +12344,18 @@ section, .section {
 
 /* Tabs content
 ---------------------------- */
+/* ---------------------------------------------------------------------
+ # CUSTOM
+--------------------------------------------------------------------- */
+.owl-item {
+  width: auto !important; }
+
+.photo-item {
+  width: auto !important;
+  height: auto !important; }
+
+.photo-item img {
+  height: 220px !important;
+  width: auto !important; }
 
 /*# sourceMappingURL=styles.css.map */
