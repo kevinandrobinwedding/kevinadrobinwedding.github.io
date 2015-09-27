@@ -258,7 +258,7 @@ $breadcrumb-separator:          "/";
 // TYPE HELPERS = Type color helpers
 // --------------------------------------------------
 $text-white:                    $color-white;
-$text-muted:                    lighten($text-color, 15%);
+$text-muted:                    #555555; //lighten($text-color, 15%);
 $text-dark: 				    darken($text-color, 15%);
 
 $text-success:				    $brand-success;

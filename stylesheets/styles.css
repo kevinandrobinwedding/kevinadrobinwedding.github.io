@@ -5627,7 +5627,7 @@ mark,
   text-transform: capitalize; }
 
 .text-muted {
-  color: #d0d0d0; }
+  color: #555555; }
 
 .text-primary {
   color: #4bd2f4; }
@@ -6543,7 +6543,7 @@ table {
 caption {
   padding-top: 8px;
   padding-bottom: 8px;
-  color: #d0d0d0;
+  color: #555555;
   text-align: left; }
 
 th {
@@ -10873,7 +10873,15 @@ h4, .h4 {
 h5, .h5, .footer-widgets .widget-title, .photo-item .title {
   font-size: 17px; }
   h5 > small, .h5 > small, .footer-widgets .widget-title > small, .photo-item .title > small {
-    letter-spacing: 5px; }
+    font-size: 10px;
+    margin-top: 10px;
+    letter-spacing: 5px;
+    text-align: justify;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; }
+    h5 > small i, .h5 > small i, .footer-widgets .widget-title > small i, .photo-item .title > small i {
+      color: #afd9ee; }
   @media (max-width: 480px) {
     h5, .h5, .footer-widgets .widget-title, .photo-item .title {
       font-size: 16px; } }
@@ -10912,7 +10920,7 @@ h6, .h6 {
 blockquote {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-style: italic;
-  color: #d0d0d0; }
+  color: #555555; }
 
 /* Dropcaps
 ---------------------------- */
@@ -11216,7 +11224,7 @@ section, .section {
         font-size: 24px; } }
   .section-header .section-lead {
     font-size: 17px;
-    color: #d0d0d0; }
+    color: #555555; }
   @media (max-width: 480px) {
     .section-header {
       margin-bottom: 25px; } }
@@ -11953,10 +11961,10 @@ section, .section {
 .blog-title {
   padding-top: 40%; }
   .blog-title > small {
-    color: #d0d0d0;
+    color: #555555;
     margin-top: 10px; }
   .blog-title .icon-link {
-    color: #d0d0d0; }
+    color: #555555; }
     .blog-title .icon-link:hover {
       color: #4bd2f4; }
   @media (max-width: 767px) {
