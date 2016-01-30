@@ -11129,8 +11129,9 @@ header.page-header {
 header.home-header {
   margin-top: 80px; }
   header.home-header .header-content {
-    padding-top: 25%;
-    padding-bottom: 25%; }
+    padding-top: 20%;
+    padding-bottom: 30%;
+    max-height: 400px; }
   header.home-header .header-title {
     margin: 0;
     font-size: 70px; }

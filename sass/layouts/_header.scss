@@ -17,8 +17,9 @@ header.page-header {
 header.home-header {
 	margin-top: $navbar-height;
 	.header-content {
-		padding-top: 25%;
-		padding-bottom: 25%;
+		padding-top: 20%;
+		padding-bottom: 30%;
+	    max-height: 400px;
 	}
 	.header-title {
 		margin: 0;
