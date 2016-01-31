@@ -64,15 +64,15 @@
 		@include transition(0.3s);
 		@include opacity(0.0);
 	}
-	&:hover {
-		> img {
-			@include opacity(0.3); 
-		}
-		.social-links {
-			@include scale(1.0);
-			@include opacity(1.0);
-		}
-	}
+	//&:hover {
+	//	> img {
+	//		@include opacity(0.3);
+	//	}
+	//	.social-links {
+	//		@include scale(1.0);
+	//		@include opacity(1.0);
+	//	}
+	//}
 	@include breakpoint(xxs) { display: none; }
 }
 

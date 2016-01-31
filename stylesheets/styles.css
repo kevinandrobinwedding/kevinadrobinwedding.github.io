@@ -11795,16 +11795,6 @@ section, .section {
           -ms-transform: translateY(-3px);
           -o-transform: translateY(-3px);
           transform: translateY(-3px); }
-  .namecard-head:hover > img {
-    opacity: 0.3;
-    filter: alpha(opacity=30); }
-  .namecard-head:hover .social-links {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1);
-    opacity: 1;
-    filter: alpha(opacity=100); }
   @media (max-width: 480px) {
     .namecard-head {
       display: none; } }
