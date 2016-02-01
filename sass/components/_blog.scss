@@ -36,6 +36,7 @@
 	background: $bg-white;
 	display: block;
 	padding: $padding-section-tiny;
+    border-radius: 50%;
 	left: 10%; top: 10%;
 	position: absolute;
 	width: 80%;
@@ -73,12 +74,14 @@
 /* Blog head
 ---------------------------- */
 .blog-head {
-	background-color: $bg-primary;
+  border-radius: 50%;
+  background-color: $bg-primary;
 }
 
 /* Blog image
 ---------------------------- */
 .blog-image {
-	@extend .img-responsive;
-	@include transition(0.15s);
+  border-radius: 50%;
+  @extend .img-responsive;
+  @include transition(0.15s);
 }

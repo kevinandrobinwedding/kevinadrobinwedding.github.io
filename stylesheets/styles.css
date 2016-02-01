@@ -11930,6 +11930,7 @@ section, .section {
   background: #fff;
   display: block;
   padding: 25px;
+  border-radius: 50%;
   left: 10%;
   top: 10%;
   position: absolute;
@@ -11968,11 +11969,13 @@ section, .section {
 /* Blog head
 ---------------------------- */
 .blog-head {
+  border-radius: 50%;
   background-color: #4bd2f4; }
 
 /* Blog image
 ---------------------------- */
 .blog-image {
+  border-radius: 50%;
   -webkit-transition: 0.15s;
   -o-transition: 0.15s;
   transition: 0.15s; }
