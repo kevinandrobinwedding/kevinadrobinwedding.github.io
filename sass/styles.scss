@@ -131,3 +131,20 @@
   margin-left: 150px;
   margin-top: 50px;
 }
+
+#kids {
+  .lead {
+    text-align: justify;
+  }
+  ul {
+    margin-left: 120px;
+    li {
+      text-align:left;
+    }
+  }
+  p {
+    padding: 0 120px 0 120px;
+    text-align: justify;
+  }
+
+}

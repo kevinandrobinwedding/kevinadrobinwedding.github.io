@@ -12367,4 +12367,14 @@ section, .section {
   margin-left: 150px;
   margin-top: 50px; }
 
+#kids .lead {
+  text-align: justify; }
+#kids ul {
+  margin-left: 120px; }
+  #kids ul li {
+    text-align: left; }
+#kids p {
+  padding: 0 120px 0 120px;
+  text-align: justify; }
+
 /*# sourceMappingURL=styles.css.map */
